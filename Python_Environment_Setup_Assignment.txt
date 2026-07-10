@@ -1,0 +1,172 @@
+# Python Environment Setup
+
+## Assignment Title
+
+**Installing Python & IDE Setup**
+
+---
+
+# Objective
+
+The objective of this assignment is to install Python on the computer, configure an Integrated Development Environment (IDE), verify the installation, and successfully run Python commands from the terminal and the IDE.
+
+---
+
+# Step 1: Download and Install Python
+
+1. Open a web browser.
+2. Visit the official Python website:
+   **https://www.python.org/downloads/**
+3. Download the latest stable version of Python for your operating system (Windows, macOS, or Linux).
+4. Run the installer.
+5. During installation, make sure to select the option **"Add Python to PATH"**.
+6. Click **Install Now** and wait for the installation to complete.
+
+**Result:**
+Python was installed successfully on the system.
+
+---
+
+# Step 2: Verify Python Installation
+
+After installation, open the Command Prompt (Windows), Terminal (macOS/Linux), and run the following command:
+
+```bash
+python --version
+```
+
+If Python is installed correctly, the output will be similar to:
+
+```text
+Python 3.13.0
+```
+
+If the `python` command does not work, try:
+
+```bash
+python3 --version
+```
+
+**Result:**
+The installed Python version was displayed successfully, confirming that Python is installed correctly.
+
+---
+
+# Step 3: Install an IDE
+
+For writing and running Python programs, an IDE was installed.
+
+### Option 1: Visual Studio Code (VS Code)
+
+1. Visit:
+   https://code.visualstudio.com/
+2. Download and install VS Code.
+3. Open VS Code.
+4. Install the **Python Extension** published by Microsoft from the Extensions Marketplace.
+
+### Option 2: PyCharm
+
+1. Visit:
+   https://www.jetbrains.com/pycharm/
+2. Download the Community Edition.
+3. Install and launch PyCharm.
+
+**Result:**
+The IDE was installed successfully.
+
+---
+
+# Step 4: Configure the Python Interpreter
+
+### In Visual Studio Code
+
+1. Open VS Code.
+2. Press **Ctrl + Shift + P** (or **Cmd + Shift + P** on macOS).
+3. Search for **Python: Select Interpreter**.
+4. Choose the installed Python interpreter (for example, Python 3.13).
+
+### In PyCharm
+
+1. Open PyCharm.
+2. Create a new project.
+3. Select the installed Python interpreter.
+4. Finish the project setup.
+
+**Result:**
+The Python interpreter was configured successfully.
+
+---
+
+# Step 5: Run a Python Command from the Terminal
+
+Open the terminal and enter the following command:
+
+```bash
+python
+```
+
+The Python interactive shell opens.
+
+Now type:
+
+```python
+print("Hello, Python!")
+```
+
+Output:
+
+```text
+Hello, Python!
+```
+
+Exit the Python shell by typing:
+
+```python
+exit()
+```
+
+**Result:**
+Python executed successfully from the terminal.
+
+---
+
+# Step 6: Run a Python Program in the IDE
+
+Create a new file named **hello.py**.
+
+Write the following code:
+
+```python
+print("Hello, Python!")
+print("Python Environment Setup Successful")
+```
+
+Save the file and run it.
+
+Output:
+
+```text
+Hello, Python!
+Python Environment Setup Successful
+```
+
+**Result:**
+The Python program executed successfully inside the IDE.
+
+---
+
+# Screenshots to Attach
+
+Include the following screenshots in the submitted document as proof:
+
+1. Python installation completed.
+2. Output of `python --version` in the terminal.
+3. VS Code or PyCharm with the Python interpreter selected.
+4. The `hello.py` program running successfully.
+5. Terminal displaying the output of the Python program.
+
+---
+
+# Conclusion
+
+Python was successfully installed and verified using the terminal. Visual Studio Code (or PyCharm) was installed and configured with the correct Python interpreter. A simple Python program was executed successfully from both the terminal and the IDE, confirming that the Python development environment is ready for programming.
